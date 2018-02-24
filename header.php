@@ -7,13 +7,20 @@
 </head>
 <body>
 
+<nav class="navbar navbar-expand-md">
+  <div class="container">
+    <a href="#" class="navbar-brand"><?php echo get_bloginfo('name'); ?></a>
+    <?php
 
-<?php
+    $header = array(
+      'container' => 'ul',
+      'menu_class' => 'navbar-nav ml-auto',
+      'container_class' => 'navbar-nav ml-auto',
+      'theme_location' => 'Primary'
+    );
 
-  $header = array(
-    'theme_location' => 'Primary'
-  );
+    wp_nav_menu($header);
 
-  wp_nav_menu($header);
-
-?>
+    ?>
+  </div>
+</nav>
