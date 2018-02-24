@@ -11,4 +11,5 @@
 
   ?>
 </div>
+// This is somethig
 <?php get_footer(); ?>
