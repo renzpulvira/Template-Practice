@@ -1,5 +1,20 @@
 nav.navbar {
+  text-align: center;
   ul li a {
     padding: 10px;
+  }
+}
+
+.column-layout {
+  display: flex;
+
+  .column-layout-one {
+    flex: 1;
+    text-align: center;
+  }
+
+  .column-layout-two {
+    flex: 1;
+    text-align: center;
   }
 }

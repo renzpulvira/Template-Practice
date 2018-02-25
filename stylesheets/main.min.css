@@ -1,2 +1,2 @@
-nav.navbar ul li a{padding:10px}body{background:#fff}
+nav.navbar{text-align:center}nav.navbar ul li a{padding:10px}.column-layout{display:flex}.column-layout .column-layout-one{flex:1;text-align:center}.column-layout .column-layout-two{flex:1;text-align:center}body{background:#e2e2e2}a.navbar-brand{color:#222}nav{border-bottom:1px solid #e2e2e2}nav a.navbar-brand,nav ul li a{color:#333}
 /*# sourceMappingURL=main.min.css.map */
